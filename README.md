@@ -28,3 +28,11 @@ Fully autonomous meta-agent that:
 
 Submitted to Solana Radar Agent Hackathon – showing the future is here.
 
+## Solana RPC Agent Demo (Off-Chain Proof)
+Pure-Python agent that autonomously queries Solana devnet:
+- Fetches latest blockhash
+- Gets recent performance samples
+- Makes deployment decision based on network health
+
+Live run example:
+Code: agent_code/solana_rpc_agent_pure.py
