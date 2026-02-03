@@ -36,3 +36,11 @@ Pure-Python agent that autonomously queries Solana devnet:
 
 Live run example:
 Code: agent_code/solana_rpc_agent_pure.py
+## Solana Hackathon Domination Strategy
+META-META AGI generated **11 submissions** covering every category + wildcards.
+Max prize potential: **$190,000**.
+
+- [STRATEGY.json](hackathon_domination/STRATEGY.json)
+- [README.md](hackathon_domination/README.md)
+
+Run: `python3 solana_ultimate_domination.py`
