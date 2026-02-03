@@ -1,0 +1,6 @@
+*.key
+*.env
+*.log
+__pycache__/
+*.pyc
+solana_proof/*.json

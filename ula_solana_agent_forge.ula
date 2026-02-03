@@ -1,0 +1,45 @@
+service: ULASolanaAgentForge
+description: Autonomous meta-agent factory that generates, deploys, and evolves Solana agents/dApps with zero human code
+
+interface: AgentIdea
+  name: string
+  category: string  # defi, nft, gaming, oracle, depin
+  problem: string
+  solana_features: string[]  # ["cheap_txs", "high_tps", "onchain_decision"]
+  required_accounts: string[]
+
+interface: GeneratedAgent
+  program_id: string
+  tx_signature: string
+  rust_code_hash: string
+  devnet_url: string
+
+interface: EvolutionFeedback
+  success_rate: number
+  tx_count: number
+  profit_lamports: number
+  improvement_suggestion: string
+
+function: decideNextAgentIdea
+  return: AgentIdea
+
+function: generateULASpecForIdea
+  param: AgentIdea
+  return: string  # ULA content as text
+
+function: compileToSolanaRust
+  param: string  # ULA spec
+  return: GeneratedAgent
+
+function: deployToDevnet
+  param: GeneratedAgent
+  return: string  # final deployment tx sig
+
+function: monitorAndEvolve
+  async: true
+  param: GeneratedAgent
+  return: EvolutionFeedback
+
+function: runForgeLoop
+  async: true
+  return: void

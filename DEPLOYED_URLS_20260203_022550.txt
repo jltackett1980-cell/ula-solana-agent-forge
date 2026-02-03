@@ -1,0 +1,13 @@
+DEPLOYED APPS
+=============
+
+CRM Platform: https://crm-platform-beryl.vercel.app
+Project Manager: https://project-manager-azure-rho.vercel.app
+Invoice System: https://invoice-system-black.vercel.app
+Booking Platform: https://booking-platform-nu.vercel.app
+Learning Platform: https://learning-platform-mu-wine.vercel.app
+E-Commerce Store: https://ecommerce-store-three-sooty.vercel.app
+Real Estate Portal: https://real-estate-portal-two.vercel.app
+Job Board: https://job-board-theta-lilac.vercel.app
+Restaurant POS: https://restaurant-pos-lilac.vercel.app
+Fitness Tracker: https://fitness-tracker-delta-snowy.vercel.app
