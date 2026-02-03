@@ -1,2 +1,4 @@
-Program ID: YOUR_PROGRAM_ID_HERE
-Tx Signature: YOUR_TX_SIG_HERE
+Solana Devnet Deployment Proof (to be updated after deploy)
+Program ID: TBD
+Tx Signature: TBD
+Explorer link: https://explorer.solana.com/?cluster=devnet
